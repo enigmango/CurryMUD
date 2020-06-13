@@ -16,6 +16,10 @@ jobs:
       - store_artifacts:
           path: /root/local/bin/curry
           destination: curry
+
+      - store_artifacts:
+          path: /root/CurryMud
+          destination: CurryMud
          
 workflows:
   build-test-deploy:
