@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   haskell-build:
-    working_directory: /root/CurrryMud
+    working_directory: /root/CurryMud
     docker:
       - image: haskell:8
     steps:
