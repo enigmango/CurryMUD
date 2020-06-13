@@ -7,6 +7,7 @@ jobs:
     steps:
       - checkout 
       - run: |
+          apt update
           apt install -y libpcre3 libpcre3-dev
           stack setup
           stack build
