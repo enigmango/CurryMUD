@@ -1,0 +1,11 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: haskell:8
+    steps:
+      - run: |
+          echo $HOME
+          pwd
+          ls
+          stack setup
